@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn by Real-World Examples</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Learn Concepts Through Real-World Examples</h1>
+    </header>
+
+    <main>
+        <section id="subject-selection">
+            <h2>Select a Subject</h2>
+            <select id="subject-dropdown">
+                <option value="">-- Choose Subject --</option>
+                <!-- Subjects will be populated by JavaScript -->
+            </select>
+            <p id="loading-status"></p>
+        </section>
+
+        <hr>
+
+        <section id="examples-section" class="hidden">
+            <h2 id="examples-title">Examples</h2>
+            <div id="examples-container">
+                <!-- Examples will be loaded here -->
+            </div>
+            <button id="start-assessment-btn" class="hidden">Start Assessment</button>
+        </section>
+
+        <hr>
+
+        <section id="assessment-section" class="hidden">
+            <h2 id="assessment-title">Assessment</h2>
+            <form id="assessment-form">
+                <!-- Assessment questions will be loaded here -->
+            </form>
+            <button id="submit-assessment-btn" type="button">Submit Assessment</button>
+             <div id="assessment-results" class="hidden">
+                <h3>Results</h3>
+                <p id="score"></p>
+                <p id="feedback"></p>
+             </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2023 Learning Website</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+[
+    {
+      "id": "phy001",
+      "concept": "Newton's First Law (Inertia)",
+      "realWorldExample": "When a car suddenly stops, passengers continue to move forward.",
+      "explanation": "An object in motion (the passenger) stays in motion with the same speed and in the same direction unless acted upon by an unbalanced force (the seatbelt or dashboard)."
+    },
+    {
+      "id": "phy002",
+      "concept": "Newton's Third Law",
+      "realWorldExample": "A rocket launching into space.",
+      "explanation": "The rocket expels gas downwards (action), and the gas pushes the rocket upwards (reaction). For every action, there is an equal and opposite reaction."
+    },
+    {
+      "id": "phy003",
+      "concept": "Gravity",
+      "realWorldExample": "An apple falling from a tree.",
+      "explanation": "The Earth exerts a gravitational force on the apple, pulling it downwards."
+    },
+    {
+      "id": "phy004",
+      "concept": "Friction",
+      "realWorldExample": "Rubbing your hands together to create warmth.",
+      "explanation": "Friction is a force that opposes motion between surfaces in contact. The work done against friction converts kinetic energy into thermal energy (heat)."
+    },
+    {
+      "id": "phy005",
+      "concept": "Centripetal Force",
+      "realWorldExample": "Swinging a bucket of water in a vertical circle without spilling.",
+      "explanation": "A force directed towards the center of the circular path (provided by the tension in your arm) keeps the bucket (and water) moving in a circle."
+    },
+    {
+      "id": "phy020",
+      "concept": "Refraction",
+      "realWorldExample": "A straw appearing bent in a glass of water.",
+      "explanation": "Light bends (refracts) when it passes from one medium (air) to another (water) at an angle, changing its speed and direction, creating the illusion."
+    }
+  ]

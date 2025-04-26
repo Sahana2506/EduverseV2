@@ -1,0 +1,23 @@
+[
+    {
+      "id": "phy_q1",
+      "questionText": "Which of Newton's laws explains why you feel pushed forward when a car suddenly brakes?",
+      "options": ["First Law (Inertia)", "Second Law (F=ma)", "Third Law (Action-Reaction)", "Law of Gravitation"],
+      "correctAnswer": "First Law (Inertia)",
+      "exampleId": "phy001"
+    },
+    {
+      "id": "phy_q2",
+      "questionText": "A rocket launching is a prime example of:",
+      "options": ["Friction", "Newton's Third Law", "Refraction", "Centripetal Force"],
+      "correctAnswer": "Newton's Third Law",
+      "exampleId": "phy002"
+    },
+    {
+      "id": "phy_q3",
+      "questionText": "Why does a straw look bent in water?",
+      "options": ["Reflection", "Inertia", "Gravity", "Refraction"],
+      "correctAnswer": "Refraction",
+      "exampleId": "phy020"
+    }
+]

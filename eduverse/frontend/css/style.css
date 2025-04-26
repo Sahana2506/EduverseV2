@@ -1,0 +1,120 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+#subject-selection select {
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+#loading-status {
+    font-style: italic;
+    color: #777;
+}
+
+.example-card {
+    background-color: #eef;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.example-card h3 {
+    margin-top: 0;
+    color: #0056b3;
+}
+
+.example-card strong {
+    color: #333;
+}
+
+.question-block {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.question-block p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.question-block label {
+    display: block;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.question-block input[type="radio"] {
+    margin-right: 8px;
+}
+
+button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+     background-color: #ccc;
+     cursor: not-allowed;
+}
+
+
+#assessment-results {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #f0f8ff;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+hr {
+    margin: 30px 0;
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+}
